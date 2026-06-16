@@ -1,14 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Earth's Den</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Space Mono', monospace;
+    }
+  </style>
 </head>
-<body class="bg-dark">
-
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark-subtle">
     <div class="container">
       <a class="navbar-brand" href="https://egeunal.net">Earth's Den</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -23,11 +30,16 @@
       </div>
     </div>
   </nav>
-
   <div class="container mt-4">
-    <p class="text-white">Page content...</p>
+    <div class="card">
+      <div class="card-title m-4">
+        <h1>projects.exe</h1>
+      </div>
+      <div class="card-body m-4 text-center">
+        <p>Here is the body of the paragraph!</p>
+      </div>
+    </div>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmqVwzBNSSGZAqXA0t7oFf/oPb9" crossorigin="anonymous"></script>
 </body>
 </html>
